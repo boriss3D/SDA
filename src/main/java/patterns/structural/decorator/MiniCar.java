@@ -1,9 +1,9 @@
 package patterns.structural.decorator;
 
-public class MiniCar implements Car{
+public class MiniCar implements Car {
 
-    @Override
-    public void createCar() {
-        System.out.println("This is Racing Car");
-    }
+   @Override
+   public void create() {
+      System.out.println("Car: mini");
+   }
 }

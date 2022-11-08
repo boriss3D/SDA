@@ -1,15 +1,14 @@
 package patterns.structural.decorator;
 
-public class CarDecorator implements Car {
+public abstract class CarDecorator implements Car {
 
-    Car car;
-    public CarDecorator(Car car) {
-        this.car = car;
-    }
+   protected Car decoratedCar;
 
-    @Override
-    public void createCar() {
-        car.createCar();
-        System.out.println(" with Gold");
-    }
+   public CarDecorator(Car decoratedCar){
+       this.decoratedCar = decoratedCar;
+   }
+
+   public void draw(){
+       decoratedCar.create();
+   }	
 }

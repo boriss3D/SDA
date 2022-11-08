@@ -1,5 +1,5 @@
 package patterns.structural.decorator;
 
 public interface Car {
-    void createCar();
+   void create();
 }
