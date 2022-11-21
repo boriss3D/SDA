@@ -16,10 +16,10 @@ public class Main {
         System.out.println("First two movies added...");
         movieAdder.addMovie(movie01);
         movieAdder.addMovie(movie02);
-        movieGetter.getMovieList().forEach(movie -> System.out.println(movie.getTitle()));
+        movieGetter.getMovieList().forEach(System.out::println);
         System.out.println();
         System.out.println("Third movie added...");
         movieAdder.addMovie(movie03);
-        movieGetter.getMovieList().forEach(movie -> System.out.println(movie.getTitle()));
+        movieGetter.getMovieList().forEach(System.out::println);
     }
 }
