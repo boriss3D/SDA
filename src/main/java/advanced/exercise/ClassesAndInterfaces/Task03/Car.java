@@ -1,5 +1,10 @@
 package advanced.exercise.ClassesAndInterfaces.Task03;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Car {
     private String make;
     private String type;
@@ -10,22 +15,6 @@ public class Car {
         this.type = type;
         engine = new Engine();
         engine.setEngine(this);
-    }
-
-    public String getMake() {
-        return make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 
     @Override

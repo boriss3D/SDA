@@ -13,7 +13,7 @@ public class Point3D extends Point2D {
     }
 
     public float[] getXYZ() {
-        return new float[]{this.getX(), this.getY(), this.getZ()};
+        return new float[]{this.getX(), this.getY(), z};
     }
 
     public void setZ(float z) {

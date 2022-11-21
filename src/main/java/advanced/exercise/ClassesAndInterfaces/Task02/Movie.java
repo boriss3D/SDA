@@ -1,56 +1,14 @@
 package advanced.exercise.ClassesAndInterfaces.Task02;
 
+import lombok.Data;
+
+@Data
 public class Movie {
     private String title;
     private String director;
     private String yearOfRelease;
     private String genre;
     private String distributor;
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getDirector() {
-        return director;
-    }
-
-    public String getYearOfRelease() {
-        return yearOfRelease;
-    }
-
-    public String getGenre() {
-        return genre;
-    }
-
-    public String getDistributor() {
-        return distributor;
-    }
-
-    private void setTitle(String title) {
-        this.title = title;
-    }
-
-    private void setDirector(String director) {
-        this.director = director;
-    }
-
-    private void setYearOfRelease(String yearOfRelease) {
-        this.yearOfRelease = yearOfRelease;
-    }
-
-    private void setGenre(String genre) {
-        this.genre = genre;
-    }
-
-    private void setDistributor(String distributor) {
-        this.distributor = distributor;
-    }
-
-    @Override
-    public String toString() {
-        return "Movie{" + "title='" + title + '\'' + ", director='" + director + '\'' + ", yearOfRelease='" + yearOfRelease + '\'' + ", genre='" + genre + '\'' + ", distributor='" + distributor + '\'' + '}';
-    }
 
     static class MovieCreator {
         private String title;
