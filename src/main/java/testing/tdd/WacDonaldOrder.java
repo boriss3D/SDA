@@ -7,8 +7,8 @@ The prices per item unit are:
 
 | Item             | Type  | Price |
 |------------------|-------|-------|
-| Cheeseburger     | Main  | 1.55  |
-| Big burger       | Main  | 6.50  |
+| Cheeseburger     | Task01  | 1.55  |
+| Big burger       | Task01  | 6.50  |
 | Chicken nuggets  | Side  | 4.20  |
 | French fries     | Side  | 1.90  |
 | Great-Cola       | Drink | 1.65  |
@@ -16,7 +16,7 @@ The prices per item unit are:
 | Apple juice      | Drink | 1.85  |
 
 
-A 30% discount should be applied when a customer chooses a combo: one Main + one Side + one Drink.
+A 30% discount should be applied when a customer chooses a combo: one Task01 + one Side + one Drink.
 
 The test scenarios are:
 - One chicken nuggets + one water = 6.20
