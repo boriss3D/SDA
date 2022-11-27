@@ -1,4 +1,4 @@
-package advanced.exercise.ParallelAndConcurrent.Task01;
+package advanced.exercise.parallelandconcurrent.task01;
 
 public class Task01 {
     public static void main(String[] args) {

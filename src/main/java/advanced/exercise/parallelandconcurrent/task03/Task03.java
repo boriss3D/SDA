@@ -1,9 +1,9 @@
-package advanced.exercise.ParallelAndConcurrent.Task03;
+package advanced.exercise.parallelandconcurrent.task03;
 
 import java.util.Random;
 
 public class Task03 {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         int[] ints = new int[50000];
         int[] intCopy = new int[50000];
 

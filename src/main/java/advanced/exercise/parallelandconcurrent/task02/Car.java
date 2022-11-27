@@ -1,4 +1,4 @@
-package advanced.exercise.ParallelAndConcurrent.Task02;
+package advanced.exercise.parallelandconcurrent.task02;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

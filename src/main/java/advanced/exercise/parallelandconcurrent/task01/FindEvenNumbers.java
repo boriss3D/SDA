@@ -1,4 +1,4 @@
-package advanced.exercise.ParallelAndConcurrent.Task01;
+package advanced.exercise.parallelandconcurrent.task01;
 
 public class FindEvenNumbers implements Runnable {
     private final int start;

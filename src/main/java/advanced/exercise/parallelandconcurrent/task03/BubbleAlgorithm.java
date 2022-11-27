@@ -1,4 +1,4 @@
-package advanced.exercise.ParallelAndConcurrent.Task03;
+package advanced.exercise.parallelandconcurrent.task03;
 
 public class BubbleAlgorithm {
     public static void sort(int[] array) {
